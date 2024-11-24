@@ -1,3 +1,6 @@
+const db = require("../database/models");
+const bcryptjs = require("bcryptjs");
+
 const productsControllers = {
     products: function(req, res){
     return res.render('index')
